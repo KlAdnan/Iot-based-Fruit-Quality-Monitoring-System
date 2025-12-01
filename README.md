@@ -209,6 +209,9 @@ The system successfully:
 - Provides local and remote access to data
 - Displays quality status on LCD
 - Uploads data to ThingSpeak for historical analysis
+  
+---
+![prototype bad fruit](https://github.com/user-attachments/assets/955b17ba-c254-49da-a7d2-2781ac8de1be)
 
 **Performance Metrics:**
 - Sensor reading interval: 10 seconds
@@ -252,8 +255,6 @@ This project was completed as part of the B.Tech degree requirements in Electron
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-![prototype bad fruit](https://github.com/user-attachments/assets/955b17ba-c254-49da-a7d2-2781ac8de1be)
 
 
 **Note**: This is an academic project designed for educational purposes. Clinical or commercial implementation would require additional safety certifications and regulatory approvals.
