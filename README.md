@@ -52,17 +52,7 @@ Food safety and hygiene are critical concerns in preventing food wastage. This p
 
 ## 🔧 Hardware Components
 
-| Component | Specification | Quantity | Purpose |
-|-----------|---------------|----------|----------|
-| Arduino Uno | ATmega328P, 16 MHz | 1 | Main microcontroller |
-| DHT11 Sensor | Temperature: 0-50°C, Humidity: 20-80% | 1 | Environmental monitoring |
-| MQ-3 Sensor | Alcohol detection: 0.04-4 mg/L | 1 | Ethanol gas sensing |
-| MQ-4 Sensor | Methane detection: 300-10000 ppm | 1 | Methane gas sensing |
-| ESP8266 Wi-Fi | 802.11 b/g/n, 10m range | 1 | Wireless connectivity |
-| LCD 16x2 with I2C | I2C interface | 1 | Local data display |
-| Power Supply | 5V DC | 1 | System power |
-
-## 💻 Software Requirements
+![Hardware Components](images/TABLE.png)## 💻 Software Requirements
 
 - **Arduino IDE** (version 1.8+)
 - **Libraries**:
