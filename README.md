@@ -217,7 +217,7 @@ The system successfully:
 - Uploads data to ThingSpeak for historical analysis
   
 ---
-![prototype bad fruit](https://github.com/user-attachments/assets/955b17ba-c254-49da-a7d2-2781ac8de1be)
+
 
 **Performance Metrics:**
 - Sensor reading interval: 10 seconds
