@@ -5,8 +5,7 @@
 [![Arduino](https://img.shields.io/badge/Arduino-Uno-teal.svg)](https://www.arduino.cc/)
 [![IoT](https://img.shields.io/badge/IoT-ThingSpeak-blue.svg)](https://thingspeak.com/)
 
-An IoT-based fruit quality monitoring system using Arduino Uno, gas sensors (MQ-3/MQ-4), temperature and humidity sensors (DHT11), ESP8266 Wi-Fi module, and ThingSpeak platform for real-time data visualization and quality assessment.
-
+Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage through temperature, humidity, and gas levels.
 ![Pin Diagram](images/pin%20diagram.jpeg)
 
 ## 📋 Table of Contents
