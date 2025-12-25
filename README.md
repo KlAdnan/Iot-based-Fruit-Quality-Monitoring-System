@@ -125,21 +125,6 @@ Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage thr
 
 ## 🔍 How It Works
 
-### Sensor Data Collection
-
-1. **Temperature & Humidity (DHT11)**:
-   - Optimal range: 20-35°C, 40-100% humidity
-   - Readings taken every 10 seconds
-
-2. **Alcohol Detection (MQ-3)**:
-   - Detects ethanol from fruit fermentation
-   - Threshold: < 500 (analog value)
-
-3. **Methane Detection (MQ-4)**:
-   - Detects methane from decay
-   - Threshold: < 400 (analog value)
-
-### Quality Assessment Algorithm
 
 ![System Flowchart](images/flowchart.png)
 ### Data Flow
