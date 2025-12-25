@@ -10,11 +10,9 @@ Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage thr
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
 - [Features](#features)
 - [Hardware Components](#hardware-components)
 - [Software Requirements](#software-requirements)
-- [System Architecture](#system-architecture)
 - [Installation](#installation)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
@@ -25,17 +23,6 @@ Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage thr
 - [Future Scope](#future-scope)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
-
-## 🎯 Overview
-
-Food safety and hygiene are critical concerns in preventing food wastage. This project addresses the challenge of monitoring atmospheric factors that affect food quality during storage and transportation. The system uses various sensors to monitor temperature, humidity, methane, and alcohol levels, providing real-time quality assessment.
-
-**Key Innovations:**
-- Real-time environmental monitoring
-- IoT-enabled remote access via ThingSpeak
-- Automatic quality assessment
-- LCD display for local monitoring
-- Cost-effective solution for food storage facilities
 
 ## ✨ Features
 
