@@ -1,6 +1,6 @@
 # IoT-Based Fruit Quality Monitoring System
 
-![System Overview](images/Overview.png)
+![System Overview](real overview.png)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Arduino](https://img.shields.io/badge/Arduino-Uno-teal.svg)](https://www.arduino.cc/)
