@@ -8,33 +8,7 @@
 Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage through temperature, humidity, and gas levels.
 ![Pin Diagram](images/pin%20diagram.jpeg)
 
-## 📋 Table of Contents
 
-- [Features](#features)
-- [Hardware Components](#hardware-components)
-- [Software Requirements](#software-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Circuit Diagram](#circuit-diagram)
-- [ThingSpeak Integration](#thingspeak-integration)
-- [Results](#results)
-- [Advantages](#advantages)
-- [Future Scope](#future-scope)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-
-## ✨ Features
-
-- **Real-Time Monitoring**: Continuous tracking of environmental parameters at 25 FPS
-- **Multi-Sensor System**:
-  - MQ-3: Alcohol/ethanol gas detection
-  - MQ-4: Methane gas detection
-  - DHT11: Temperature and humidity measurement
-- **IoT Integration**: Wireless data transmission to ThingSpeak cloud platform
-- **Quality Assessment**: Automatic determination of fruit quality (Good/Bad)
-- **Local Display**: 16x2 LCD with I2C interface for on-site monitoring
-- **Remote Access**: View data from anywhere via web interface
 
 ## 🔧 Hardware Components
 
@@ -49,22 +23,7 @@ Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage thr
   - ThingSpeak.h (IoT platform integration)
   - SPI.h (SPI communication)
 
-## 🏛️ System Architecture
 
-```
-[Sensors] --> [Arduino Uno] --> [LCD Display]
-    |              |                   |
-    |              v                   |
-    |      [ESP8266 Wi-Fi]             |
-    |              |                   |
-    |              v                   |
-    |      [ThingSpeak Cloud]          |
-    |              |                   |
-    +-------> [Quality Assessment] <---+
-                   |
-                   v
-            [Good/Bad Display]
-```
 
 
 
@@ -200,20 +159,4 @@ The system successfully:
 
 
 ![Bad Fruit Detection Demo](images/bad%20fruit%20demo.jpeg)
-## 🙏 Acknowledgments
 
-We express our sincere gratitude to:
-- College of Engineering Thalassery for providing facilities
-- Dr. Sudheer VR, Head of Department of ECE
-- Ms. Safoora OK, Project Supervisor
-- Mr. Jinesh S, Project Co-ordinator
-
-This project was completed as part of the B.Tech degree requirements in Electronics and Communication Engineering under APJ Abdul Kalam Technological University during the academic year 2023-2024.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
-**Note**: This is an academic project designed for educational purposes. Clinical or commercial implementation would require additional safety certifications and regulatory approvals.
