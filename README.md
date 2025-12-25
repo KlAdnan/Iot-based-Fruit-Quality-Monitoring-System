@@ -66,7 +66,7 @@ Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage thr
             [Good/Bad Display]
 ```
 
-![System Flowchart](images/flowchart.png)
+
 
 ## 💾 Installation
 
@@ -141,16 +141,7 @@ Monitor fruit freshness in real-time using sensors and IoT. Detects spoilage thr
 
 ### Quality Assessment Algorithm
 
-```cpp
-bool isGoodFruit = (temperature >= 20 && temperature <= 35 &&
-                    humidity >= 40 && humidity <= 100 &&
-                    mq3Value < 500 &&
-                    mq4Value < 400);
-```
-
-If all conditions are met: **Good Fruit**  
-If any condition fails: **Bad Fruit**
-
+![System Flowchart](images/flowchart.png)
 ### Data Flow
 
 1. Arduino reads all sensors
