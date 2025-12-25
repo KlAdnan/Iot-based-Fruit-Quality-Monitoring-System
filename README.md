@@ -118,23 +118,7 @@ ThingSpeak provides cloud-based data storage and visualization:
 6. View real-time graphs on ThingSpeak dashboard
 
 ## 🏆 Results
-
-The system successfully:
-- Monitors environmental parameters in real-time
-- Accurately detects fruit quality degradation
-- Provides local and remote access to data
-- Displays quality status on LCD
-- Uploads data to ThingSpeak for historical analysis
-  
----
-
-
-**Performance Metrics:**
-- Sensor reading interval: 10 seconds
-- Data update rate: Real-time
-- Temperature accuracy: ±2°C
-- Humidity accuracy: ±5%
-- Wi-Fi range: Up to 10 meters
+![Bad Fruit Detection Demo](images/bad%20fruit%20demo.jpeg)
 
 ## ✅ Advantages
 
@@ -158,5 +142,5 @@ The system successfully:
 - Battery backup for continuous operation
 
 
-![Bad Fruit Detection Demo](images/bad%20fruit%20demo.jpeg)
+
 
